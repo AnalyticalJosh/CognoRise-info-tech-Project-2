@@ -117,12 +117,16 @@ ggplot(data = Top5_Cereal, mapping = aes(x = Name, y = Ratings)) + geom_bar(stat
                                                                             width = 0.8)
 # Question 5
 Lowest_Sodium <- select(Cereals_80, Name, Sodium)
-View(Lowest_Sodium)
 Lowest_Sodium <- Lowest_Sodium %>% group_by(Name) %>% arrange(Sodium) %>% head(1)
+View(Lowest_Sodium)
+
+# Frosted Mini-Wheats is the cereal with lowest sodium
 
 Highest_Sodium <- select(Cereals_80, Name, Sodium)
 Highest_Sodium <- Highest_Sodium %>% group_by(Name) %>% arrange(desc(Sodium)) %>% head(1)
 View(Highest_Sodium)
+
+# Product 19 is the cereal with the highest sodium
 
 # Question 6
 Ratings <- Cereals_80 %>% group_by(Shelf) %>% summarise(Total = mean(Ratings))
