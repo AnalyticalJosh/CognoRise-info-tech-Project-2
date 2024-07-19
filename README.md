@@ -47,3 +47,6 @@ Based on the 80 cereals dataset from Kaggle, This cereal dataset contains variou
 3. dplyr: Used to analyse, organise and manipulate data.
 4. forcats: Used to reorder the level of factor based on the values.
 5. gridextra: Used to arrange multiple Visuals in a grid format.
+
+# NOTE 
+Firstly i'm going to start my analysis using Microsoft Excel to organise, analyse and check for any missing values and inconsistency in the data. After this session is completed, i would import the excel file into R studio and then continue my analysis with the help of various data analysis package from R.
