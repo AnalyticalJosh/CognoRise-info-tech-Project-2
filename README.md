@@ -36,3 +36,14 @@ Based on the 80 cereals dataset from Kaggle, This cereal dataset contains variou
 8.  How does the nutrient composition (calories, protein, fat, etc.) vary by serving size (weight)?
 9.  Create histograms or box plots to visualize the distribution of nutrients (calories, protein, fat, etc.) across all cereals.
 10. Visualize the top-rated cereals based on user ratings.
+
+# DATA ANALYTICAL TOOLS USED
+1. Microsoft Excel
+2. R Studio
+
+# R PACKAGE USED
+1. Readxl: Used to import excel filesfor analysis.
+2. ggplot2: Used to visualize findings from the datasets.
+3. dplyr: Used to analyse, organise and manipulate data.
+4. forcats: Used to reorder the level of factor based on the values.
+5. gridextra: Used to arrange multiple Visuals in a grid format.
