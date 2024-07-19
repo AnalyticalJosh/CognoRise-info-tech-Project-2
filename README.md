@@ -1,6 +1,5 @@
 # CEREAL 80
-[80 Cereals.xlsx](https://github.com/user-attachments/files/16314575/80.Cereals.xlsx)
-[cereal.csv](https://github.com/user-attachments/files/16314574/cereal.csv)
+
 ![Cereals](https://github.com/user-attachments/assets/33b16a8b-4d77-4e1e-902f-a36cc31bc52e)
 
 # INTRODUCTION
